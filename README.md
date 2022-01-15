@@ -1,5 +1,5 @@
 # Pal-Leaders-Program
-Pal-Program for the Business Statistics Classes at Capilano University
+**Pal-Program for the Business Statistics Classes at Capilano University**
 
 ## About the Program
 The PAL program at CapU is a very interesting project, based on Supplemental Instruction (SI).
