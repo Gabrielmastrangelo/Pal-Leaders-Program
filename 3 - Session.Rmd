@@ -4,7 +4,7 @@ output:
   html_document
 ---
 
-## Objectice
+## Objective
 
 Showing how to use the frequency graphs that we have learned, to plot the daily returns from the IVV etf.
 
