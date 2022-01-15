@@ -1,6 +1,7 @@
 # Pal-Leaders-Program
 **Pal-Program for the Business Statistics Classes at Capilano University** </br>
-Pal Leader: Gabriel Mastrangelo Canuto, 1° year Bachelor in Sciences student.</br>
+Pal Leader: Gabriel Mastrangelo Canuto </br>
+1° year Bachelor in Sciences student </br>
 [LinkedIn](https://www.linkedin.com/in/gabriel-canuto/)
 
 ## About the Program
