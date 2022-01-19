@@ -11,7 +11,7 @@
 ### Statistical Application:
 + Plotting the histogram and accumulated frequency polygon for the daily historical returns of the etf IVV, that reflects the S&P 500.
 
-[!alt_text](
+![alt text](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/3-Session/plot.png)
 
 ### Materials
 + 3 - Presentation (Slides).pptx = Powerpoint Slides 
