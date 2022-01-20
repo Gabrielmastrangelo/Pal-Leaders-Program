@@ -19,3 +19,4 @@
 ### Materials
 + 4 - Presentation (Slides).pptx = Powerpoint Slides.
 + 4 - Exercises.xlsx = This has the solutions for the exercises that we solved in the Excel.
++ statisticsS&P.ipynb = This is a file with an application of this content in the financial market using Python
