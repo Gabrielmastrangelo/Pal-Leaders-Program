@@ -16,6 +16,8 @@
 + We will compute the mean of the volume and its standard deviation
 + We will compute the coefficient of variation from both, and them we will compare them
 
+![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/4-Session/plot.png)
+
 ### Materials
 + 4 - Presentation (Slides).pptx = Powerpoint Slides.
 + 4 - Exercises.xlsx = This has the solutions for the exercises that we solved in the Excel.
