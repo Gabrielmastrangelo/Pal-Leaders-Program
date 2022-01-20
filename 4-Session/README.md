@@ -12,4 +12,4 @@
 ### Statistical Application
 
 + Calculate the geometric mean of the returns from S&P, and it's standard deviation
-  +a
+  + a
