@@ -1,4 +1,4 @@
-# Chapter 3 - Describing data
+# Chapter 2 - Describing data
 
 ### Goals for the chapter:
 + Summarise qualitative variables with frequency and relative frequency tables.
