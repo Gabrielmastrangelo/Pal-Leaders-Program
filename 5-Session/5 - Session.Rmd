@@ -1,0 +1,91 @@
+---
+title: '5 - Standard Deviation as a Measure of Dispersion '
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Objective
+
+Showing how to use the frequency graphs that we have learned, to plot the daily returns from the IVV etf.
+
+
+## Loading the libraries and the Data
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(readxl)
+library(ggplot2)
+library(readxl)
+
+df <- read_excel('IVV.xlsx')
+df
+```
+
+## Histogram
+
+```{r}
+p <- ggplot(df, aes(Close))
+
+mean_ = mean(df$Close)
+sd_ = sd(df$Close)
+
+p + geom_histogram(bins = 100,) +
+  ggtitle("Histogram of IVV Daily Returns") +
+  ylab("Frequency") +
+  xlab("Returns") + 
+  geom_vline(aes(xintercept = mean_, color = "Mean" ),linetype="dashed", size=1) +
+  geom_vline(aes(xintercept = mean_+sd_, color = "1 Stand Dev"),linetype="dashed",  size=1) +
+  geom_vline(aes(xintercept = mean_-sd_, color = "1 Stand Dev"),linetype="dashed",  size=1) +
+  geom_vline(aes(xintercept = mean_-2*sd_, color = "2 Stand Dev"),linetype="dashed",  size=1) +
+  geom_vline(aes(xintercept = mean_+2*sd_, color = "2 Stand Dev"),linetype="dashed",  size=1) 
+
+
+```
+
+## Cumulative Distribution
+
+```{r}
+cdf = ecdf(df$Close)
+
+p + stat_ecdf(geom = "step") +
+  ggtitle("Cumulative Frequency IVV Daily Returns") +
+  ylab("Frequency") +
+  xlab("Returns") +
+  geom_segment(aes(x = mean_, y = 0, xend = mean_, yend = cdf(mean_), 
+                   colour = "Mean"), data = df, size=1)+
+  geom_segment(aes(x = mean_+sd_, y = 0, xend = mean_+sd_, 
+                   yend = cdf(mean_+sd_), colour = "1 Stand Dev"), 
+               data = df, size=1)+
+  geom_segment(aes(x = mean_-sd_, y = 0, xend = mean_-sd_, 
+                   yend = cdf(mean_-sd_), colour = "1 Stand Dev"), 
+               data = df, size=1) +
+  geom_segment(aes(x = mean_+2*sd_, y = 0, xend = mean_+2*sd_, 
+                   yend = cdf(mean_+2*sd_), colour = "2 Stand Dev"), 
+               data = df,size=1)+
+  geom_segment(aes(x = mean_-2*sd_, y = 0, xend = mean_-2*sd_, 
+                   yend = cdf(mean_-2*sd_), colour = "2 Stand Dev"), 
+               data = df, size=1)
+
+```
+
+## Numerical Evaluation
+
+
+```{r}
+
+#How much of the data is between 1 Stand Deviation?
+print(cdf(mean_+sd_) - cdf(mean_-sd_))
+#How much of the data is between 2 Stand Deviation?
+print(cdf(mean_+2*sd_) - cdf(mean_-2*sd_))
+
+```
+
+### Boxplot
+
+```{r}
+
+boxplot(df$Close)
+title("Boxplot of IVV Historical Returns")
+
+```
