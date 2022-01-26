@@ -23,7 +23,7 @@
     + IVV seeks to track the investment results of an index composed of large-capitalization U.S. equities.
     + EWZ seeks to track the investment results of an index composed of Brazilian equities
 
-![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/6-Session/Plots/plot3.png)
+![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/6-Session/Plots/plot2.png)
 ![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/6-Session/Plots/plot3.png)
 
 ### Materials
