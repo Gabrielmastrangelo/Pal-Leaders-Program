@@ -18,15 +18,14 @@
 
 + Visualizing the returns of different asset classes are distributed using, histograms, scatterplots and boxplots.
   + We are going to analyse the ETFs: 
-    + TIP
-    + HYG
-    + IVV
-    + EWZ
+    + TIP seeks to track the investment results of an index composed of inflation-protected U.S. Treasury bonds.
+    + HYG seeks to track the investment results of an index composed of U.S. dollar-denominated, high yield corporate bonds.
+    + IVV seeks to track the investment results of an index composed of large-capitalization U.S. equities.
+    + EWZ seeks to track the investment results of an index composed of Brazilian equities
 
 ![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/5-Session/plot.png)
 
 ### Materials
-+ 5 - Presentation (Slides).pptx = Powerpoint Slides.
-+ 5 - Exercises.xlsx = This has the solutions for the exercises that we solved in the Excel.
-+ dispersion_returns_IVV.pdf = This is a PDF file with an application of this content in the financial market using R
-+ 5 - Session.Rmd = This is the R code for generating the dispersion_returns_IVV.pdf file
++ 6 - Presentation (Slides).pptx = Powerpoint Slides.
++ 6 - Exercises.xlsx = This has the solutions for the exercises that we solved in the Excel.
++ 6 - boxplot.ipynb = This is the jupyter notebook with the Python code for the statistical application
