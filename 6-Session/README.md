@@ -16,6 +16,10 @@
 
 ### Statistical Application
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/6-Session/Plots/plot1.png">
+</p>
+
 + Visualizing the returns of different asset classes are distributed using, histograms, scatterplots and boxplots.
   + We are going to analyse the ETFs: 
     + TIP seeks to track the investment results of an index composed of inflation-protected U.S. Treasury bonds.
