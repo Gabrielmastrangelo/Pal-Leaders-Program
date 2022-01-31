@@ -16,7 +16,7 @@
 ### Statistical Application
 
 <p align="center">
-  <src="https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/7-Session/histogram.png">
+  <img src="https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/7-Session/histogram.png">
 </p>
 
 + Calculating the Empirical Value at Risk for different securities, very famous and widely used risk measure for financial markets.
