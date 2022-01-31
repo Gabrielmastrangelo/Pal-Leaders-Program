@@ -16,7 +16,7 @@
 ### Statistical Application
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/6-Session/Plots/plot1.png">
+  <img width="460" height="300" src="https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/7-Session/histogram.png">
 </p>
 
 + Calculating the Empirical Value at Risk for different securities, very famous and widely used risk measure for financial markets.
@@ -26,7 +26,6 @@
     + IVV seeks to track the investment results of an index composed of large-capitalization U.S. equities.
     + EWZ seeks to track the investment results of an index composed of Brazilian equities
 
-![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/7-Session/histogram.png)
 ![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/7-Session/results.png)
 
 ### Materials
