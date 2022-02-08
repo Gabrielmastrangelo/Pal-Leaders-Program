@@ -1,6 +1,6 @@
 # Chapter 4 - Probability Concepts
 
-### Goals for the Review:
+### Goals for the session:
 + Define the terms probability, experiment, event, and outcome.
 + Assign probabilities using the classical, empirical or subjective probability. 
 + Determine the number of outcomes using principles of counting.
