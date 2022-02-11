@@ -6,9 +6,8 @@
 + Compute the mean, variance, and standard deviation of a probability distribution.
 + Explain the assumptions and compute probabilities of the binomial distribution
 
-```math
-SE = \frac{\sigma}{\sqrt{n}}
-```
+![alt_image](https://github.com/Gabrielmastrangelo/Pal-Leaders-Program/blob/main/10-Session/eq.png)
+
 ### Materials
 + 10 - Presentation (Slides).pptx = Powerpoint Slides.
 + 10 - Exercises 2.xlsx = This has the solutions for the exercises that we solved in the Excel.
