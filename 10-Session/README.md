@@ -23,10 +23,10 @@ Where:
 - p = is the probability of success on each trial 
 
 Mean:
-<img src="https://render.githubusercontent.com/render/math?math= \mu = np">
+<img src="https://render.githubusercontent.com/render/math?math=\mu = np">
 
 Standard Deviation:
-<img src="https://render.githubusercontent.com/render/math?math= \sigma = np(1-p)">
+<img src="https://render.githubusercontent.com/render/math?math=\sigma = np(1-p)">
 
 ## Statistical Application
 We are going to build functions to calculate automatically for us the probabilitie, mean and standard deviation of a binominal function given the parameters.
