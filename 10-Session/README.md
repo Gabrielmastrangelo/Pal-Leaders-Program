@@ -16,7 +16,6 @@
 
 #### Formula
 
-$P(x) = \binom{n}{x}p^x(1-p)^{n-x}$
 <img src="https://render.githubusercontent.com/render/math?math=P(x) = \binom{n}{x}p^x(1-p)^{n-x}">
 Where:
 - n = number of trials 
@@ -24,10 +23,10 @@ Where:
 - p = is the probability of success on each trial 
 
 Mean:
-$$ \mu = np $$ 
+<img src="https://render.githubusercontent.com/render/math?math= \mu = np">
 
 Standard Deviation:
-$$ \sigma = np(1-p) $$
+<img src="https://render.githubusercontent.com/render/math?math= \sigma = np(1-p)">
 
 ## Statistical Application
 We are going to build functions to calculate automatically for us the probabilitie, mean and standard deviation of a binominal function given the parameters.
