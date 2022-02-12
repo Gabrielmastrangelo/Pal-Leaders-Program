@@ -45,10 +45,7 @@ There are libraries that compute it automatically, but for the sake of learning,
 ### Computing Combination
 
 We know that the equation is:
-$$ 
-nCk = \binom{n}{x} = \frac{n!}{x!(n-x)!}
-$$
-
+<img src="https://render.githubusercontent.com/render/math?math=nCk = \binom{n}{x} = \frac{n!}{x!(n-x)!}">
 
 ```python
 def combination(n, x):
