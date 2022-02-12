@@ -57,6 +57,8 @@ def combination(n, x):
 
 ### Computing P(x)
 
+We know that the equation is:
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = \binom{n}{x}p^x(1-p)^{n-x}">
 
 ```python
 def binomProb(n, x, p, accum = False):
