@@ -18,15 +18,14 @@
 
 <img src="https://render.githubusercontent.com/render/math?math=P(x) = \binom{n}{x}p^x(1-p)^{n-x}">
 Where:
-  - n = number of trials 
-  - x = is the number of observed successes 
-  - p = is the probability of success on each trial 
++ n = number of trials 
++ x = is the number of observed successes 
++ p = is the probability of success on each trial 
 
 Mean:
-<img src="https://render.githubusercontent.com/render/math?math=\mu = np">
-
++ <img src="https://render.githubusercontent.com/render/math?math=\mu = np">
 Standard Deviation:
-<img src="https://render.githubusercontent.com/render/math?math=\sigma = np(1-p)">
++ <img src="https://render.githubusercontent.com/render/math?math=\sigma = np(1-p)">
 
 ## Statistical Application
 We are going to build functions to calculate automatically for us the probabilitie, mean and standard deviation of a binominal function given the parameters.
@@ -44,8 +43,8 @@ There are libraries that compute it automatically, but for the sake of learning,
 
 ### Computing Combination
 
-We know that the equation is:</br>
-<img src="https://render.githubusercontent.com/render/math?math=nCk = \binom{n}{x} = \frac{n!}{x!(n-x)!}">
+We know that the equation is:
++ <img src="https://render.githubusercontent.com/render/math?math=nCx = \binom{n}{x} = \frac{n!}{x!(n-x)!}">
 
 ```python
 def combination(n, x):
