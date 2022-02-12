@@ -18,9 +18,9 @@
 
 <img src="https://render.githubusercontent.com/render/math?math=P(x) = \binom{n}{x}p^x(1-p)^{n-x}">
 Where:
-- n = number of trials 
-- x = is the number of observed successes 
-- p = is the probability of success on each trial 
+  - n = number of trials 
+  - x = is the number of observed successes 
+  - p = is the probability of success on each trial 
 
 Mean:
 <img src="https://render.githubusercontent.com/render/math?math=\mu = np">
@@ -44,7 +44,7 @@ There are libraries that compute it automatically, but for the sake of learning,
 
 ### Computing Combination
 
-We know that the equation is:
+We know that the equation is:</br>
 <img src="https://render.githubusercontent.com/render/math?math=nCk = \binom{n}{x} = \frac{n!}{x!(n-x)!}">
 
 ```python
