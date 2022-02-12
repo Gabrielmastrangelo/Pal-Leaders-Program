@@ -16,9 +16,7 @@
 
 #### Formula
 
-$$
-P(x) = \binom{n}{x}p^x(1-p)^{n-x}
-$$
+$$P(x) = \binom{n}{x}p^x(1-p)^{n-x}$$
 Where:
 - n = number of trials 
 - x = is the number of observed successes 
