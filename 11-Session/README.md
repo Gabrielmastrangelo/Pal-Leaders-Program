@@ -48,5 +48,7 @@ Where:
 <img src="https://render.githubusercontent.com/render/math?math=P(x) = \frac{\mu e^{-\mu}}{x!} ">
 
 Where:
-+ <img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu">: mean of success in a particular interval of time
++ <img src="https://render.githubusercontent.com/render/math?math=\mu">: mean of success in a particular interval of time
++ e: is the euler's constant
++ x: number of successes
 
