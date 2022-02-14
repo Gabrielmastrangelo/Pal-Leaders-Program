@@ -34,4 +34,4 @@ Where:
 + n: number of observations
 + x: number of successes in n observations
 
-**OBS: When the sample size is less than 5% of the population, the binomial distribution can be used to approximate the hypergeometric distribution. That is, when n < 0.05N, the binomial should suffice. **
+**OBS: When the sample size is less than 5% of the population, the binomial distribution can be used to approximate the hypergeometric distribution. That is, when n < 0.05N, the binomial should suffice.**
