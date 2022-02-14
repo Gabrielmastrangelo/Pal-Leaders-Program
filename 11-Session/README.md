@@ -45,7 +45,7 @@ Where:
 
 #### Formula
 
-<img src="https://render.githubusercontent.com/render/math?math=P(x) = /mu ">
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu\exp ">
 
 Where:
 + N: size of population
