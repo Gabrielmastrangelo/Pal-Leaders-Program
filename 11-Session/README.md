@@ -26,4 +26,4 @@
 
 #### Formula
 
-<img src="https://render.githubusercontent.com/render/math?math=P(x) = /frac{\binom{S}{x} \binom{N-S}{n-x}} {/binom{N}{n}} ">
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = /frac{\binom{S}{x}\binom{N-S}{n-x}}{/binom{N}{n}} ">
