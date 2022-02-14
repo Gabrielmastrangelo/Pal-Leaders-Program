@@ -17,3 +17,13 @@
 + Explain the assumptions and compute probabilities of the hypergeometric distribution.  
 + Explain the assumptions and compute probabilities of the Poisson distribution. 
 
+## Hypergeometric Distribution
+
+#### Characteristics:
++ There are only 2 possible outcomes. 
++ It results from a count of the number of successes in a fixed number of trials. 
++ The probability of a success is not the same on each trial. 
+
+#### Formula
+
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = /frac{\binom{S}{x} \binom{N-S}{n-x}} {/binom{N}{n}} ">
