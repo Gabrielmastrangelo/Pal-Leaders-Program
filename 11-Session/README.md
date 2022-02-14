@@ -45,12 +45,4 @@ Where:
 
 #### Formula
 
-<img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu\exp ">
-
-Where:
-+ N: size of population
-+ S: number of success
-+ n: number of observations
-+ x: number of successes in n observations
-
-**OBS: When the sample size is less than 5% of the population, the binomial distribution can be used to approximate the hypergeometric distribution. That is, when n < 0.05N, the binomial should suffice.**
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu e{-\mu} ">
