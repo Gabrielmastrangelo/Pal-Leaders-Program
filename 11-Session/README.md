@@ -46,3 +46,7 @@ Where:
 #### Formula
 
 <img src="https://render.githubusercontent.com/render/math?math=P(x) = \frac{\mu e^{-\mu}}{x!} ">
+
+Where:
++ <img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu">: mean of success in a particular interval of time
+
