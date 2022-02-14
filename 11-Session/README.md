@@ -8,7 +8,7 @@
 + Calculate probabilities using the rules of addition.  
 + Calculate probabilities using the rules of multiplication.  
 + Compute probabilities using a contingency table. 
-+ Use a tree diagram to organize and compute probabilities. 
++ Use a tree diagram to organize and compute probabilities. </br>
 **Chapter 5**
 + Identify the characteristics of a probability distribution. 
 + Distinguish between discrete and continuous random variables. 
