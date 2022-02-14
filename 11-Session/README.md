@@ -45,4 +45,4 @@ Where:
 
 #### Formula
 
-<img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu e{-\mu} ">
+<img src="https://render.githubusercontent.com/render/math?math=P(x) = \mu e^{-\mu} ">
