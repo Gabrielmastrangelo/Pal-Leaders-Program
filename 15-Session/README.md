@@ -30,3 +30,8 @@ Last keep with the same ETFs, that will represent different assets classes with 
 ### Conclusion
 
 As we would expect, the least risk asset is the portfolio of USA Bonds, and the riskier asset is the ETF that represents the Brazillian stock market index.
+
+### Materials
+
++ Exercises.xlsx = Excel file with the exercises
++ par_var.ipynb = Financial Application
